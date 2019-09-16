@@ -19,7 +19,7 @@ df = pd.DataFrame({
     'iq':[300,100,110,200,300,10,40]
 })
 ########################################################
-# BEGIN extract a 25% sample of data
+# BEGIN extract a 25% sample of data Test test Here is a test change
 ########################################################
 rows = df.sample(frac =.25)
 # validate first to check if sample is 0.25 times data or not
